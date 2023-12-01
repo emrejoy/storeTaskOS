@@ -9,6 +9,6 @@ and subsequently empty the Cart.
   Scenario: Search for Stainless Work Table, Add to Cart, and Empty Cart
     Given   I am on the Webstaurant Store website
     When    I search for 'stainless work table'
-    Then    every product in the search results should have the word 'Stainless' in its title
+    Then    every product in the search results should have the word 'Table' in its title
     And     I add the last found item to the Cart
     And     I empty the Cart
